@@ -9,10 +9,12 @@ import SwiftUI
 
 struct tabcustom: View {
     
-    @State var currentTab: Int = 0
+    @State var currentTab: Int = 1
     
     var body: some View {
+      
         ZStack(alignment: .top){
+           
             TabView(selection: self.$currentTab)
             {
                 About().tag(0)
@@ -23,9 +25,11 @@ struct tabcustom: View {
             }
             .tabViewStyle(.page(indexDisplayMode: .never
                                ))
-            .edgesIgnoringSafeArea(.all)
+           
             
             tabBarView(currentTab: self.$currentTab)
+                .padding(.leading, 10)
+        
         }
     }
 }
@@ -34,7 +38,7 @@ struct TabView_Previews: PreviewProvider {
     
     
     static var previews: some View {
-        tabcustom()
+        PokemonView()
     }
 }
 
@@ -56,11 +60,14 @@ struct tabBarItem: View {
                 VStack{
                     Spacer()
                     Text(tabBarItemname)
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.system( size: currentTab == tab ? 18 : 17,
+                                       weight: currentTab == tab ? .bold : .medium))
+                        .foregroundColor(currentTab == tab ? .white : .white.opacity(0.8))
+                    
                     if currentTab == tab {
-                        Color.black
+                        Color.white
                          
-                            .frame(width: 30 ,height: 3)
+                            .frame(width: 27 ,height: 3.5)
                             .cornerRadius(50)
                            .matchedGeometryEffect(id: "underline", in: namespace,
                                             properties: .frame)
@@ -88,7 +95,7 @@ struct tabBarView: View{
     
     var body: some View{
         ScrollView(.horizontal, showsIndicators: false){
-            HStack(spacing: 24){
+            HStack(spacing: 32){
                 
                 ForEach(Array(zip(self.tabBarOptions.indices, self.tabBarOptions)),
                         id: \.0,
@@ -108,8 +115,8 @@ struct tabBarView: View{
                
                
         }
-        .background(.white)
-        .edgesIgnoringSafeArea(.all)
+        .background(.clear
+        )
         .frame(height: 40)
     }
 }

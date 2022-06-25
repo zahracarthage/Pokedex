@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8056DEB2865C07300E4E045 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8056DEA2865C07300E4E045 /* Inter-VariableFont_slnt,wght.ttf */; };
+		A8056DED2865C08F00E4E045 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8056DEC2865C08F00E4E045 /* Poppins-Thin.ttf */; };
+		A8056DEF2865C09A00E4E045 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8056DEE2865C09A00E4E045 /* Poppins-Bold.ttf */; };
+		A8056DF12865C0A800E4E045 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8056DF02865C0A800E4E045 /* Poppins-SemiBold.ttf */; };
+		A8056DF428664FE200E4E045 /* PokemonstatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8056DF328664FE200E4E045 /* PokemonstatsView.swift */; };
 		A807A5A928632165008AB1C0 /* pokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807A5A828632165008AB1C0 /* pokedexApp.swift */; };
 		A807A5AB28632165008AB1C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807A5AA28632165008AB1C0 /* ContentView.swift */; };
 		A807A5AD28632165008AB1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A807A5AC28632165008AB1C0 /* Assets.xcassets */; };
@@ -19,6 +24,8 @@
 		A807A5D928632201008AB1C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807A5D828632201008AB1C0 /* Home.swift */; };
 		A807A5DB286323DD008AB1C0 /* customTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807A5DA286323DD008AB1C0 /* customTabBar.swift */; };
 		A807A5DD28632883008AB1C0 /* tabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807A5DC28632883008AB1C0 /* tabCurve.swift */; };
+		A8968969286658FA009304AC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8968968286658FA009304AC /* File.swift */; };
+		A896896B2866E7DC009304AC /* glassmorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = A896896A2866E7DC009304AC /* glassmorphism.swift */; };
 		A8B85E4328659DF300438836 /* moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B85E4228659DF300438836 /* moves.swift */; };
 		A8B85E4528659E0000438836 /* evolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B85E4428659E0000438836 /* evolution.swift */; };
 		A8B85E4728659E1300438836 /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B85E4628659E1300438836 /* locations.swift */; };
@@ -47,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8056DEA2865C07300E4E045 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-VariableFont_slnt,wght.ttf"; path = "../../../../Downloads/Inter/Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		A8056DEC2865C08F00E4E045 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "../../../../Downloads/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		A8056DEE2865C09A00E4E045 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A8056DF02865C0A800E4E045 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		A8056DF228662C8200E4E045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8056DF328664FE200E4E045 /* PokemonstatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonstatsView.swift; sourceTree = "<group>"; };
 		A807A5A528632165008AB1C0 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A807A5A828632165008AB1C0 /* pokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexApp.swift; sourceTree = "<group>"; };
 		A807A5AA28632165008AB1C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +75,8 @@
 		A807A5D828632201008AB1C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A807A5DA286323DD008AB1C0 /* customTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBar.swift; sourceTree = "<group>"; };
 		A807A5DC28632883008AB1C0 /* tabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabCurve.swift; sourceTree = "<group>"; };
+		A8968968286658FA009304AC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A896896A2866E7DC009304AC /* glassmorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glassmorphism.swift; sourceTree = "<group>"; };
 		A8B85E4228659DF300438836 /* moves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moves.swift; sourceTree = "<group>"; };
 		A8B85E4428659E0000438836 /* evolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evolution.swift; sourceTree = "<group>"; };
 		A8B85E4628659E1300438836 /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
@@ -97,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8056DE92865C03A00E4E045 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8056DF02865C0A800E4E045 /* Poppins-SemiBold.ttf */,
+				A8056DEE2865C09A00E4E045 /* Poppins-Bold.ttf */,
+				A8056DEC2865C08F00E4E045 /* Poppins-Thin.ttf */,
+				A8056DEA2865C07300E4E045 /* Inter-VariableFont_slnt,wght.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		A807A59C28632165008AB1C0 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +146,8 @@
 		A807A5A728632165008AB1C0 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				A8056DF228662C8200E4E045 /* Info.plist */,
+				A8056DE92865C03A00E4E045 /* fonts */,
 				A807A5D7286321F8008AB1C0 /* views */,
 				A807A5A828632165008AB1C0 /* pokedexApp.swift */,
 				A807A5AA28632165008AB1C0 /* ContentView.swift */,
@@ -165,6 +193,9 @@
 				A807A5DC28632883008AB1C0 /* tabCurve.swift */,
 				A8CC39A728638ED600456A6B /* PokemonView.swift */,
 				A8CC39A928638EF900456A6B /* background.swift */,
+				A8056DF328664FE200E4E045 /* PokemonstatsView.swift */,
+				A8968968286658FA009304AC /* File.swift */,
+				A896896A2866E7DC009304AC /* glassmorphism.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -287,6 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A807A5B028632165008AB1C0 /* Preview Assets.xcassets in Resources */,
+				A8056DED2865C08F00E4E045 /* Poppins-Thin.ttf in Resources */,
+				A8056DEF2865C09A00E4E045 /* Poppins-Bold.ttf in Resources */,
+				A8056DF12865C0A800E4E045 /* Poppins-SemiBold.ttf in Resources */,
+				A8056DEB2865C07300E4E045 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
 				A807A5AD28632165008AB1C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,15 +351,18 @@
 				A8CC39B12864C86100456A6B /* Stats.swift in Sources */,
 				A8CC39A828638ED600456A6B /* PokemonView.swift in Sources */,
 				A807A5B528632165008AB1C0 /* pokedex.xcdatamodeld in Sources */,
+				A8056DF428664FE200E4E045 /* PokemonstatsView.swift in Sources */,
 				A807A5B228632165008AB1C0 /* Persistence.swift in Sources */,
 				A807A5DD28632883008AB1C0 /* tabCurve.swift in Sources */,
 				A8CC39AF2864C85700456A6B /* About.swift in Sources */,
 				A8B85E4728659E1300438836 /* locations.swift in Sources */,
 				A8B85E4328659DF300438836 /* moves.swift in Sources */,
 				A807A5D928632201008AB1C0 /* Home.swift in Sources */,
+				A8968969286658FA009304AC /* File.swift in Sources */,
 				A8B85E4528659E0000438836 /* evolution.swift in Sources */,
 				A807A5AB28632165008AB1C0 /* ContentView.swift in Sources */,
 				A807A5DB286323DD008AB1C0 /* customTabBar.swift in Sources */,
+				A896896B2866E7DC009304AC /* glassmorphism.swift in Sources */,
 				A8CC39B32864C90700456A6B /* TabView.swift in Sources */,
 				A807A5A928632165008AB1C0 /* pokedexApp.swift in Sources */,
 			);
@@ -488,6 +526,7 @@
 				DEVELOPMENT_TEAM = 9F55972V7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -517,6 +556,7 @@
 				DEVELOPMENT_TEAM = 9F55972V7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

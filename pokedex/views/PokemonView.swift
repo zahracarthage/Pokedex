@@ -11,14 +11,22 @@ struct PokemonView: View {
     var body: some View {
         ZStack{
             backGround()
+            
             VStack{
                 
-   
-                TopBar()
-            
-                PokemonDetails()
                 
-                tabcustom()
+   
+                TopBar(header: "#001", fontSize: 20, headerColor: .white)
+  
+                    PokemonDetails()
+                    
+                  
+                        tabcustom()
+                
+            
+              
+                
+               
                 
              
                 
@@ -40,6 +48,10 @@ struct PokemonView_Previews: PreviewProvider {
 }
 
 struct TopBar: View {
+    var header: String
+    var fontSize: Double
+    var headerColor: Color
+    
     var body: some View{
         
         HStack {
@@ -51,9 +63,9 @@ struct TopBar: View {
             })
             Spacer()
             
-            Text("#001")
-                .foregroundColor(.white)
-                .font(.system(size: 20, weight: .bold))
+            Text(header)
+                .foregroundColor(headerColor)
+                .font(.system(size: fontSize, weight: .bold))
             Spacer()
       
             Button(action: {}, label: {
@@ -105,8 +117,9 @@ struct PokemonDetails: View {
             
             VStack{
                 Text("Bulbasaur")
+                   .font(Font.custom("Poppins-Bold", size: 30))
                     .foregroundColor(.white)
-                    .font(.system(size: 30, weight: .bold))
+                    
                 
                 Text("Seed Pokémon")
                     .foregroundColor(.gray)

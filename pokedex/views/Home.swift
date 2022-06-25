@@ -225,9 +225,7 @@ struct cardView: View
                     .shadow(radius: 10, y: 20)
                     .rotationEffect(.degrees(degrees))
                     .offset(y: -22)
-                   
-                    
-                   
+                      
             }
                          
                                      
